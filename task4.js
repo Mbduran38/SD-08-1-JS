@@ -15,3 +15,8 @@ export class Player {
       this.level++;
     }
   }
+
+  const player = new Player("Tara",6);
+  player.levelUp();
+  player.info();
+  

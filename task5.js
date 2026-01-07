@@ -27,3 +27,8 @@ export class Player {
       }
     }
   }
+
+const player = new Player("Tara",6);
+player.gainExperience(250);
+console.log(player.experience);
+player.info();

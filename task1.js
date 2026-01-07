@@ -6,3 +6,6 @@ export class Player {
       
     }    
   }
+
+const player = new Player("Tara",6);
+console.log(player);
